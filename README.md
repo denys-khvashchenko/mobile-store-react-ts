@@ -24,7 +24,7 @@ Mobile Store is an online shopping platform specializing in mobile phones, acces
 ## Preview
 - [Mobile Store](https://khvashchenkodenys.github.io/mobile-store-react-ts/)
 
-## Preview
+## Mockup
 - [Mobile Store Mockup](https://www.figma.com/design/7JTa0q8n3dTSAyMNaA0u8o/Phone-catalog-(V2)-Rounded-Style-3)
 
 ## Project Structure

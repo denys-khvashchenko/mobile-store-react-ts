@@ -1,14 +1,44 @@
 @import '../../styles/main';
 
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+
 .aside {
   position: absolute;
   display: flex;
   inset: 49px 0 0;
-
   background-color: $whiteColor;
   z-index: 1;
   justify-content: center;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
 
+  &.aside-enter {
+    animation-name: slideIn;
+  }
+
+  &.aside-exit {
+    animation-name: slideOut;
+  }
 
   &__container {
     display: flex;
@@ -88,5 +118,4 @@
       bottom: 32px;
     }
   }
-
 }
