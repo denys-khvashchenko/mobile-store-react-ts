@@ -1,46 +1,73 @@
-# Getting Started with Create React App
+# Mobile Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
+Mobile Store is an online shopping platform specializing in mobile phones, accessories, and tablets. The project is built using React and leverages a JSON database to manage product data. This ensures a fast, responsive, and user-friendly experience for customers.
 
-## Available Scripts
+## Technologies Used
+ - React
+ - React Router
+ - TypeScript
+ - HTML5
+ - CSS3(SCSS)
+ - JavaScript (ES6)
+ - JSON for database
 
-In the project directory, you can run:
+ ## Features
+ - Browse a wide range of mobile phones, accessories, and tablets
+ - Search and filter products by various criteria
+ - Detailed product pages with specifications and images
+ - Add products to cart and manage cart items
+ - Add products to favorites for quick access
+ - Responsive design for optimal viewing on different devices
+ - Simulated checkout process
 
-### `npm start`
+## Preview
+- [Mobile Store](https://khvashchenkodenys.github.io/mobile-store-react-ts/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Preview
+- [Mobile Store Mockup](https://www.figma.com/design/7JTa0q8n3dTSAyMNaA0u8o/Phone-catalog-(V2)-Rounded-Style-3)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Project Structure
+ - src/: Main source code directory
+    - components/: Reusable React components
+    - pages/: Page components for different routes
+    - services/: Services for data fetching and business logic
+    - styles/: SCSS styles
+    - hooks/: Custom hooks for managing state and effects
+    - types/: TypeScript types and interfaces
+    - context/: Contexts for global state management
+    - utils/: Utility functions
+    - App.js: Main app component
+    - index.js: Entry point for the React app
+ - public/: Public assets and JSON database
+ - package.json: Project configuration and dependencies
 
-### `npm test`
+## Additional Launch Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get started with the project locally, follow these steps:
 
-### `npm run build`
+**Fork the repository:**
+  - Go to the original repository on GitHub.
+  - Click on the "Fork" button in the upper right corner of the page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Clone the forked repository:**
+  - Open your terminal.
+  - Run the following command, replacing `yourusername` with your GitHub username:
+  - `git clone https://github.com/yourusername/your-repo-name.git`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Navigate to the project directory:**
+    `cd your-repo-name`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Install the project dependencies:**
+    `npm install`
 
-### `npm run eject`
+**Start the development server:**
+    `npm start`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Switching Node.js Version to 14:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  **Install Node.js version 14:**
+    `nvm install 14`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+  **Use Node.js version 14:**
+    `nvm use 14`
